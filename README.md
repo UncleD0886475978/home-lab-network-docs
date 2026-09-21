@@ -1,20 +1,24 @@
-# Home Lab Network Documentation
+# 🏠 Home Lab Network Documentation
 
-Documentation of my home lab network infrastructure, including topology, VLAN design, Proxmox virtual networking, and firewall configuration.
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat&logo=proxmox&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 
-## Overview
-This repo covers the network design and configuration for my home lab, built and maintained as part of my hands-on infrastructure/networking practice.
+Documentation of my home lab network infrastructure — topology, VLAN design, Proxmox virtual networking, and firewall configuration.
 
-## Structure
-- `/topology` — Network topology diagrams
-- `/vlans` — VLAN design and subnet allocation
-- `/proxmox` — Proxmox virtual network (vSwitch/bridge) configurations
-- `/firewall` — Firewall rules and configuration exports
+## 📂 Structure
+| Folder | Contents |
+|---|---|
+| [`/topology`](./topology) | Network topology diagram |
+| [`/vlans`](./vlans) | VLAN design & subnet allocation |
+| [`/proxmox`](./proxmox) | Virtual network (vSwitch/bridge) configs |
+| [`/firewall`](./firewall) | Firewall rules & configuration |
 
-## Lab Environment
-- Hypervisor: Proxmox VE
-- Hardware: (Dell iDRAC / HP iLO managed)
-- Networking: (fill in switch/router models)
+## 🖥️ Lab Environment
+- **Hypervisor:** Proxmox VE
+- **Hardware Mgmt:** Dell iDRAC / HP iLO
+- **Automation:** Docker, Terraform
 
-## Author
-Derick — [GitHub](https://github.com/UncleD0886475978)
+## 👤 Author
+**Derick** — [GitHub](https://github.com/UncleD0886475978)
